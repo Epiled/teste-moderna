@@ -64,13 +64,6 @@
 
 @font-face {
   font-family: Roboto;
-  font-weight: bolder;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Black.ttf");
-}
-
-@font-face {
-  font-family: Roboto;
   font-weight: 900;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Black.ttf");
@@ -138,13 +131,6 @@
   font-weight: 700;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-BoldItalic.ttf");
-}
-
-@font-face {
-  font-family: Roboto;
-  font-weight: bolder;
-  font-style: italic;
-  src: url("../fonts/Roboto/Roboto-BlackItalic.ttf");
 }
 
 @font-face {
@@ -220,13 +206,6 @@
 
 @font-face {
   font-family: Rubik;
-  font-weight: bolder;
-  font-style: normal;
-  src: url("../fonts/Rubik/Rubik-Black.ttf");
-}
-
-@font-face {
-  font-family: Rubik;
   font-weight: 900;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Black.ttf");
@@ -294,13 +273,6 @@
   font-weight: 800;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-ExtraBold.ttf");
-}
-
-@font-face {
-  font-family: Rubik;
-  font-weight: bolder;
-  font-style: italic;
-  src: url("../fonts/Rubik/Rubik-Black.ttf");
 }
 
 @font-face {

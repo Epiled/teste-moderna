@@ -1,10 +1,81 @@
+.folha {
+  max-width: 248rem;
+  max-height: 350.8rem;
+  margin: 2rem 15rem;
+  box-shadow: 0 0 .5rem .2rem var(--darker);
+  padding: 2rem;
+}
+
+
+.folha__titulo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--color-main);
+  text-decoration: underline;
+  margin: 2rem 0 1rem 0;
+  text-underline-offset: .5rem;
+}
+
+.folha__subtitulo {
+  color: var(--color-main);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.folha__txt {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-indent: 2rem;
+}
+
+.folha__txt + .folha__txt {
+  margin-top: 1rem;
+}
+
+.folha__picture {
+  margin: 2rem 0;
+}
+
+.folha__image {
+  width: 100%;
+}
+
+.folha__caption {
+  font-size: 1.25rem;
+  margin-top: .5rem;
+}
+
 .extra {
   gap: .5rem;
+  font-family: Rubik;
+  padding: 0;
+  margin: 2rem 0;
 }
 
 .extra__tag {
-
+  background: var(--color-secondary);
+  padding: .5rem 1rem ;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--lighter);
+  width: fit-content;
 }
-.extra__txt {
 
+.extra__tag--think {
+  background: var(--color-think);
+}
+
+.extra__txt {
+  font-family: Roboto;
+  padding: .5rem 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: .1rem solid var(--color-secondary);
+}
+
+.extra__lOrder {
+  list-style: decimal;
+  background: var(--color-think-lighter);
+  border: 0;
+  padding: 1rem 1rem 1rem 3rem;
 }

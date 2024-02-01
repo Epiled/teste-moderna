@@ -1,6 +1,11 @@
 :root {
   --color-main: #0056A4;
+  --color-main--alt: #0077BA;
   --color-secondary: #CE470A;
+  --color-think: #9560A4;
+  --color-think-lighter: #EFE7F1;
+  --color-beholder: #008739;
+  --color-beholder-lighter: #E6F3EB;
   --lighter: #ffffff;
   --darker: #000000;
 }
