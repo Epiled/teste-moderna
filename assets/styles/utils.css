@@ -1,0 +1,14 @@
+.blk {
+  display: block;
+}
+
+.blk-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1rem;
+}
+
+.txt-up {
+  text-transform: uppercase;
+}

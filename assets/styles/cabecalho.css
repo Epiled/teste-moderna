@@ -1,0 +1,25 @@
+.cabecalho {
+  gap: 1rem;
+  color: var(--lighter);
+  padding: 0;
+  font-family: Rubik;
+  font-weight: bold;
+}
+
+.cabecalho__unidade {
+  background: var(--color-main);
+  min-height: 13rem;
+  font-size: 4rem;
+  padding: 2.5rem 2rem;
+}
+
+.cabecalho__capitulo {
+  background: var(--color-secondary);
+  min-height: 11rem;
+  font-size: 3.3rem;
+  background-image: url(../img/vinheta_abertura_capitulo.png);
+  background-size: 12.5rem;
+  background-repeat: no-repeat;
+  padding: 2.5rem 2rem;
+  padding-left: 14.5rem;
+}
