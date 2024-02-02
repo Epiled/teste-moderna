@@ -15,8 +15,6 @@ Foram 5 páginas convertidas de um documento PDF, seguindo um guia de regras, e 
 ![Badge](https://img.shields.io/github/languages/code-size/Epiled/teste-moderna?style=for-the-badge)
 ![Badge](https://img.shields.io/github/languages/count/Epiled/teste-moderna?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/Epiled/teste-moderna?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/teste-moderna?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
