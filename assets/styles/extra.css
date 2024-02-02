@@ -1,0 +1,49 @@
+.extra {
+  gap: .5rem;
+  font-family: Rubik;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.extra__tag {
+  background: var(--color-secondary);
+  padding: .5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--lighter);
+  width: fit-content;
+}
+
+.extra__tag--think {
+  background: var(--color-think);
+}
+
+.extra__tag--beholder {
+  background-color: var(--color-beholder);
+  background-image: url(../img/vinheta_observando_o_mapa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 3.5rem;
+}
+
+.extra__txt {
+  font-family: Roboto;
+  padding: .5rem 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: .1rem solid var(--color-secondary);
+}
+
+.extra__txt--beholder {
+  color: var(--darker);
+  border: 0;
+  text-indent: 2rem;
+  background-color: var(--color-beholder-lighter);
+}
+
+.extra__lOrder {
+  list-style: decimal;
+  background: var(--color-think-lighter);
+  border: 0;
+  padding: 1rem 1rem 1rem 3rem;
+}

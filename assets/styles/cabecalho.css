@@ -10,17 +10,28 @@
 .cabecalho__unidade {
   background: var(--color-main);
   min-height: 13rem;
-  font-size: 4rem;
+  font-size: 2rem;
   padding: 2.5rem 2rem;
 }
 
 .cabecalho__capitulo {
   background: var(--color-secondary);
   min-height: 11rem;
-  font-size: 3.3rem;
+  font-size: 2rem;
   background-image: url(../img/vinheta_abertura_capitulo.png);
-  background-size: 12.5rem;
+  background-size: 6.25rem;
   background-repeat: no-repeat;
   padding: 2.5rem 2rem;
-  padding-left: 14.5rem;
+}
+
+@media screen and (min-width: 500px) {
+  .cabecalho__unidade {
+    font-size: 4rem;
+  }
+
+  .cabecalho__capitulo {
+    font-size: 3.3rem;
+    padding-left: 14.5rem;
+    background-size: 12.5rem;
+  }
 }

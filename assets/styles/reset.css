@@ -42,6 +42,11 @@ table {
 	border-spacing: 0;
 }
 
-span, strong, li, dl, dt, dd {
+span, strong, li, dl, dt, dd, b {
 	font-size: inherit;
+}
+
+strong, b {
+	display: inline;
+	font-weight: 700;
 }

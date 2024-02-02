@@ -1,0 +1,18 @@
+.ref {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.ref__link {
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.ref__list {
+  font-size: 1.25rem;
+  list-style: auto;
+  padding-left: 2rem;
+}

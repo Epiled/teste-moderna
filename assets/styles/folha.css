@@ -1,7 +1,10 @@
 .folhas {
-  display: flex; 
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   background-color: #e9e9e9;
+  padding: 0 2rem;
 }
 
 .folha {
@@ -9,15 +12,23 @@
   flex-direction: column;
   max-width: 210mm;
   min-height: 297mm;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 2rem 0 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   background-color: var(--lighter);
 }
 
+.folha:first-of-type {
+  margin-top: 2rem;
+}
+
+.folha:last-of-type {
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 1024px) {
   .folha {
-    /* max-width: 248rem; */
     margin: 2rem auto;
   }
 }
@@ -38,9 +49,15 @@
 }
 
 .folha__txt {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
   text-indent: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+.folha__txt {
+  font-size: 1.8rem;
+}
 }
 
 .folha__txt+.folha__txt {
@@ -51,6 +68,15 @@
   margin: 2rem 0;
 }
 
+.folha__picture--alt {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  width: 50%;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 .folha__image {
   width: 100%;
 }
@@ -58,54 +84,24 @@
 .folha__caption {
   font-size: 1.25rem;
   margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.extra {
-  gap: .5rem;
-  font-family: Rubik;
-  padding: 0;
-  margin: 2rem 0;
+.folha__flutuantes {
+  display: initial;
 }
 
-.extra__tag {
-  background: var(--color-secondary);
-  padding: .5rem 1rem;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--lighter);
-  width: fit-content;
-}
+@media screen and (max-width: 500px) {
+  .folha__flutuantes {
+    display: flex;
+    flex-direction: column;
+  }
 
-.extra__tag--think {
-  background: var(--color-think);
-}
-
-.extra__tag--beholder {
-  background-color: var(--color-beholder);
-  background-image: url(../img/vinheta_observando_o_mapa.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-left: 3.5rem;
-}
-
-.extra__txt {
-  font-family: Roboto;
-  padding: .5rem 1rem;
-  font-weight: 400;
-  font-size: 1.5rem;
-  border: .1rem solid var(--color-secondary);
-}
-
-.extra__txt--beholder {
-  color: var(--darker);
-  border: 0;
-  text-indent: 2rem;
-  background-color: var(--color-beholder-lighter);
-}
-
-.extra__lOrder {
-  list-style: decimal;
-  background: var(--color-think-lighter);
-  border: 0;
-  padding: 1rem 1rem 1rem 3rem;
+  .folha__picture--alt {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    margin: 2rem 0;
+  }
 }
