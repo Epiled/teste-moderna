@@ -27,12 +27,6 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 1024px) {
-  .folha {
-    margin: 2rem auto;
-  }
-}
-
 .folha__titulo {
   font-size: 2.2rem;
   font-weight: bold;
@@ -52,12 +46,6 @@
   font-size: 1.6rem;
   font-weight: 400;
   text-indent: 2rem;
-}
-
-@media screen and (min-width: 500px) {
-.folha__txt {
-  font-size: 1.8rem;
-}
 }
 
 .folha__txt+.folha__txt {
@@ -90,6 +78,18 @@
 
 .folha__flutuantes {
   display: initial;
+}
+
+@media screen and (min-width: 500px) {
+  .folha__txt {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .folha {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {

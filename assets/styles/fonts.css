@@ -4,6 +4,7 @@
   font-weight: thin;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Thin.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -11,6 +12,7 @@
   font-weight: 100;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Thin.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -18,6 +20,7 @@
   font-weight: lighter;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -25,6 +28,7 @@
   font-weight: 300;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -32,6 +36,7 @@
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -39,6 +44,7 @@
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -46,6 +52,7 @@
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -53,6 +60,7 @@
   font-weight: bold;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -60,6 +68,7 @@
   font-weight: 700;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -67,6 +76,7 @@
   font-weight: 900;
   font-style: normal;
   src: url("../fonts/Roboto/Roboto-Black.ttf");
+  font-display: swap;
 }
 
 /* Roboto Italic */
@@ -75,6 +85,7 @@
   font-weight: thin;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-ThinItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -82,6 +93,7 @@
   font-weight: 100;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-ThinItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -89,6 +101,7 @@
   font-weight: lighter;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-LightItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -96,6 +109,7 @@
   font-weight: 300;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-LightItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -103,6 +117,7 @@
   font-weight: normal;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-Italic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -110,6 +125,7 @@
   font-weight: 400;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-Italic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -117,6 +133,7 @@
   font-weight: 500;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-MediumItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -124,6 +141,7 @@
   font-weight: bold;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-BoldItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -131,6 +149,7 @@
   font-weight: 700;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-BoldItalic.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -138,6 +157,7 @@
   font-weight: 900;
   font-style: italic;
   src: url("../fonts/Roboto/Roboto-BlackItalic.ttf");
+  font-display: swap;
 }
 
 /* Rublik */
@@ -146,6 +166,7 @@
   font-weight: lighter;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -153,6 +174,7 @@
   font-weight: 300;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -160,6 +182,7 @@
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -167,6 +190,7 @@
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -174,6 +198,7 @@
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Medium.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -181,6 +206,7 @@
   font-weight: 600;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-SemiBold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -188,6 +214,7 @@
   font-weight: bold;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -195,6 +222,7 @@
   font-weight: 700;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -202,6 +230,7 @@
   font-weight: 800;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-ExtraBold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -209,6 +238,7 @@
   font-weight: 900;
   font-style: normal;
   src: url("../fonts/Rubik/Rubik-Black.ttf");
+  font-display: swap;
 }
 
 /* Rublik Italic */
@@ -217,6 +247,7 @@
   font-weight: lighter;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -224,6 +255,7 @@
   font-weight: 300;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -231,6 +263,7 @@
   font-weight: normal;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -238,6 +271,7 @@
   font-weight: 400;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -245,6 +279,7 @@
   font-weight: 500;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Medium.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -252,6 +287,7 @@
   font-weight: 600;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-SemiBold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -259,6 +295,7 @@
   font-weight: bold;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -266,6 +303,7 @@
   font-weight: 700;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -273,6 +311,7 @@
   font-weight: 800;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-ExtraBold.ttf");
+  font-display: swap;
 }
 
 @font-face {
@@ -280,4 +319,5 @@
   font-weight: 900;
   font-style: italic;
   src: url("../fonts/Rubik/Rubik-Black.ttf");
+  font-display: swap;
 }
