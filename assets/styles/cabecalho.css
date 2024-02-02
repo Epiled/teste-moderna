@@ -8,10 +8,13 @@
 }
 
 .cabecalho__unidade {
+  justify-content: center;
+  gap: 2.5rem;
   background: var(--color-main);
-  min-height: 13rem;
   font-size: 2rem;
-  padding: 2.5rem 2rem;
+  padding: 0 2rem;
+  line-height: 1;
+  min-height: 13rem;
 }
 
 .cabecalho__capitulo {
@@ -21,7 +24,10 @@
   background-image: url(../img/vinheta_abertura_capitulo.png);
   background-size: 6.25rem;
   background-repeat: no-repeat;
-  padding: 2.5rem 2rem;
+  padding: 0 2rem;
+  justify-content: center;
+  line-height: 1;
+  gap: 2.5rem;
 }
 
 @media screen and (min-width: 500px) {
@@ -31,7 +37,7 @@
 
   .cabecalho__capitulo {
     font-size: 3.3rem;
-    padding-left: 14.5rem;
-    background-size: 12.5rem;
+    padding-left: 11.5rem;
+    background-size: 10rem;
   }
 }

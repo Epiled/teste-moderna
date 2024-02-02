@@ -1,8 +1,7 @@
+@import url(utils.css);
 @import url(cabecalho.css);
 @import url(folha.css);
 @import url(glossario.css);
-@import url(footer.css);
 @import url(extra.css);
 @import url(ref.css);
 @import url(oficina.css);
-@import url(utils.css);
