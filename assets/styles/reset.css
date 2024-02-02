@@ -42,7 +42,11 @@ table {
 	border-spacing: 0;
 }
 
-span, strong, li, dl, dt, dd, b {
+a {
+	text-decoration: none;
+}
+
+span, strong, li, dl, dt, dd, b, a, dfn {
 	font-size: inherit;
 }
 
