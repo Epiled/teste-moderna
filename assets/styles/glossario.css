@@ -1,0 +1,31 @@
+.glossario {
+  font-size: 1.5rem;
+}
+
+.glossario__title {
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--lighter);
+  background: var(--color-glossario);
+  width: fit-content;
+}
+
+.glossario__list {
+  padding: 1rem;
+}
+
+.glossario__item {
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+.glossario__item dd {
+  display: inline;
+}
+
+.glossario__word {
+  color: var(--color-glossario);
+  display: inline-block;
+  font-weight: 700;
+}
