@@ -33,7 +33,7 @@ Foram 5 páginas convertidas de um documento PDF, seguindo um guia de regras, e 
 
 ```
 1. git clone https://github.com/Epiled/teste-moderna.git
-2. cd detona-ralph
+2. cd teste-moderna
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
